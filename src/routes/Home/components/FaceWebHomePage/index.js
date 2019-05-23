@@ -21,9 +21,7 @@ const Wrapper = styled.div`
 
 const SignUpLink = styled(Link)`
   margin-right: 1rem;
-
   color: #1890ff;
-
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
@@ -31,7 +29,6 @@ const SignUpLink = styled(Link)`
 
 const LoginLink = styled(Link)`
   color: #1890ff;
-
   font-size: .7rem;
   font-weight: bold;
   text-decoration: none;
@@ -41,7 +38,10 @@ export default function FaceWebHomePage()  {
   return (
     <Wrapper>
       <Typography>
-        <Title>
+        <div>
+        <img src="https://s3.ap-northeast-2.amazonaws.com/lucky-faceweb-2019/logo.png" width="300" height="100" ></img>
+        </div>
+        <Title style={{ marginTop: '30px' }}>
           집에서 쉽게 안면 비대칭을 개선해보세요!
         </Title>
         <Paragraph>
@@ -72,12 +72,13 @@ export default function FaceWebHomePage()  {
         <Title>
           사진 한 장으로 개선과정을 기록하고 확인해보세요.
         </Title>
-        <Paragraph style={{ marginBottom: '60px' }}>
+        <Paragraph style={{ marginBottom: '30px' }}>
           매주 혹은 매달 마다 사진으로 기록해서 개선 과정을 확인해보세요. 단 몇 초면 확인이 가능합니다!
         </Paragraph>
-        <SignUpLink to={SIGNUP_PATH}>가입하고 확인해보기</SignUpLink>
-        <LoginLink to={LOGIN_PATH}>로그인하기</LoginLink>
+        {/* <SignUpLink to={SIGNUP_PATH}>가입하고 확인해보기</SignUpLink> */}
+        {/* <LoginLink to={LOGIN_PATH}>로그인하기</LoginLink>  */}
       </Typography>
     </Wrapper>
   );
 }
+

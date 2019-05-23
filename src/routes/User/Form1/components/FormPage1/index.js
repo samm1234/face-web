@@ -11,7 +11,7 @@ export default class DashboardPage extends React.PureComponent {
 
     return (
       <Wrapper>
-        여기는 상담게시판이 될 것임.
+        여기는 상품후기게시판이 될 것임.
       </Wrapper>
     );
 }

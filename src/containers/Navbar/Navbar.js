@@ -36,7 +36,11 @@ const userMenu = [{
 }, {
   icon: 'edit',
   to: '/user/form',
-  label: '질문하기',
+  label: '상담게시판',
+}, {
+  icon: 'edit',
+  to: '/user/form1',
+  label: '상품후기게시판',
 }];
 
 export default function Navbar ({

@@ -15,7 +15,7 @@ export const FaceWebLayout = ({ children, classes }) => {
   itJustForRerender += 1;
 
   return (
-  <Layout style={{ minHeight: '100%' }}>
+    <Layout style={{ minHeight: '100%' }}>
     <Sider
       breakpoint="lg"
       collapsedWidth="0"
@@ -25,7 +25,7 @@ export const FaceWebLayout = ({ children, classes }) => {
       <Navbar itJustForRerender={itJustForRerender} />
     </Sider>
     <Layout>
-      <Content style={{ margin: '24px 16px 0' }}>
+      <Content style={{ margin: '24px 29px 0' }}>
         <div>{children}</div>
       </Content>
       <Footer style={{ textAlign: 'center' }}>

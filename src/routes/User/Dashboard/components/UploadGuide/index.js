@@ -38,13 +38,13 @@ const GuideImg = styled.img`
 export default function UploadGuide() {
   return (
     <Wrapper>
-      <Card cover={<GuideImg alt="올바른 요청" src="https://jourgo.com/wp-content/uploads/2017/11/ryan-holloway-261284-1-e1545644191309.jpg" />}>
+      <Card cover={<GuideImg alt="올바른 요청" src="https://t1.daumcdn.net/cfile/tistory/193AD54D4E4C9A0412" />}>
         <Meta title="올바른 요청 예시" description={<Description>{'정면을 바라보는 사진이 측정 잘 돼요.'}</Description>} />
       </Card>
-      <Card cover={<GuideImg alt="잘못된 요청1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYYZfJYQOOMEqURXk-DSYzj1cBQSHDswgUkUD26pd56ri6ANJF" />}>
+      <Card cover={<GuideImg alt="잘못된 요청1" src="http://cfile201.uf.daum.net/image/12486142511356E018403A" />}>
         <Meta title="잘못된 요청 예시" description={<Description>{'얼굴을 알아보기 힘든 사진은 측정이 어려워요.'}</Description>} />
       </Card>
-      <Card cover={<GuideImg alt="잘못된 요청2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYYZfJYQOOMEqURXk-DSYzj1cBQSHDswgUkUD26pd56ri6ANJF" />}>
+      <Card cover={<GuideImg alt="잘못된 요청2" src="http://cfile229.uf.daum.net/image/172323504E82F2070A896C" />}>
         <Meta title="잘못된 요청 예시" description={<Description>{'각도가 돌아간 사진은 측정이 어려워요.'}</Description>} />
       </Card>
     </Wrapper>
